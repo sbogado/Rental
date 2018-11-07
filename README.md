@@ -1,8 +1,8 @@
 # Rental
 
-# Right now, in my actual job in Sysone, im working using Java 1.7 so i used it to resolve what it is asking 
+ Right now, in my actual job in Sysone, im working using Java 1.7 so i used it to resolve what it is asking 
 because i just have to focus on the design and resolution.
-# The Rental excercise from the very beggining had an smell of the Composite Design Pattern. It made me to
+ The Rental excercise from the very beggining had an smell of the Composite Design Pattern. It made me to
 go in that direction.
 The model is composed basically by 3 parts, Rental, Leaf Rental, and Composite Rental.
 
@@ -21,6 +21,6 @@ are used to define the "cost" Rental behavior.
 I made another decision that consists in implement FamilyRental's contructor to receive a collection of Rental
 and then validate that the size is between 3 and 5 following the exercise requirements, not allowing to make an instance of FamilyRental inconsistently.
 
-# Is out of my habit to practice unit testing, it is not something that we do because of the nature of the company's projects.
+ Is out of my habit to practice unit testing, it is not something that we do because of the nature of the company's projects.
 I tried to apply TDD learned in the University and i hope have made it well.
 I used JUnit 4 Library to make the tests and i ran them using "eclipse | run as | Junit " from the project.
