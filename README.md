@@ -4,7 +4,7 @@
 because i just have to focus on the design and resolution.
  The Rental excercise from the very beggining had an smell of the Composite Design Pattern. It made me to
 go in that direction.
-The model is composed basically by 3 parts, Rental, Leaf Rental, and Composite Rental.
+The model is composed basically by 3 parts, Rental (Component), Leaf Rental (Leaf), and Composite Rental (Composite).
 
 - Rental is an abstract class that represents a common interface of any Rental class.
 It defines the common interface behavior of any Rental. First is the method "cost" that returns a double representing an amount of money.
