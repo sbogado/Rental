@@ -23,7 +23,7 @@ public class FamilyRental extends Rental{
 		for(Rental rental : rentals){
 			cost = cost + rental.cost();
 		}
-		return cost - cost * 30 / 100;
+		return cost * 70 / 100;
 	}
 
 	public void addRental(Rental rental) {
